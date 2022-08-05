@@ -84,3 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
   //   }, index * interval);
   // });
 });
+
+document.querySelector("#store-link").addEventListener("click", ()=> {
+  document.querySelector(".sub-nav").classList.remove("hide");
+})
